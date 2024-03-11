@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "skipLibCheck": true,
+    "target": "es6",
+    "lib": ["es2017"],
+    "module": "commonjs",
+    "declaration": true,
+    "removeComments": true,
+    "noUnusedLocals": false,
+    "noUnusedParameters": true,
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "inlineSources": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "typeRoots": ["node_modules/@types"],
+    "outDir": "dist",
+    "rootDirs": ["src"],
+    "types": []
+  },
+  "include": ["src/**/*"]
+}
